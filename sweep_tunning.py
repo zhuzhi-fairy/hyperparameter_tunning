@@ -4,7 +4,6 @@ os.environ["CUDA_VISIBLE_DEVICES"] = sys.argv[1]
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1'
 import traceback
 import time
-import multiprocessing
 
 import wandb
 import slackweb
